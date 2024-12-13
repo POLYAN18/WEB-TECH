@@ -1,0 +1,76 @@
+/* Подключение шрифтов */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #231d1d;
+}
+
+/* Заголовок */
+h1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    text-align: center;
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+/* Параграфы */
+p {
+    margin: 15px 20px;
+    color: #333;
+}
+
+/* Изображения */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Ссылки */
+a {
+    color: #8f00cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004499;
+}
+
+/* Списки */
+li {
+    margin: 10px 0;
+    color: #333;
+}
+
+ul, ol {
+    padding-left: 40px;
+}
+
+/* Кнопки */
+button {
+    background-color: #0066cc; 
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000099;
+}
