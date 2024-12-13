@@ -7,25 +7,34 @@
     <!-- Подключение normalize.css -->
     <link rel="stylesheet" href="CSS/normalize.css">
     <!-- Подключение стилей -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <!-- Подключение шрифтов из Google Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Фиксированный блок -->
+    <div class="fixed-block">
+        menu
+    </div>
+
     <h1>Илон Маск. Краткая биография одного из самых известных и респектабельных людей мира</h1>
-    <p>Илон Маск родился в Претории (ЮАР) 28 июня 1971 года. Задатков будущего миллиардера в маленьком Маске никто не видел. Он мог надолго отключаться от реальности, погрузившись в размышления, отчего даже сходил за аутиста.</p>
-    <p>Стремясь в Америку всей душой, после школы Илон воспользовался изменениями в канадском законодательстве...</p>
-    <img src="https://avatars.dzeninfra.ru/get-ynews/6035923/2198d11e0cc159a563a0d5da09ea222f/800x400" alt="Илон Маск">
-    <p>Благодаря своему первому проекту Zip2, Илон Маск стал миллионером в 24 года. Во время учебы в университете, в 1995 году, Илон основал первую компанию - стартап Zip2.</p>
-    <li><a href="https://pikabu.ru/story/ilon_maskkratkaya_biografiya_odnogo_iz_samyikh_izvestnyikh_i_respektabelnykh_lyudey_mira_7082456">Читать дальше...</a></li>
-    <p>Другие известные предприниматели:</p>
-    <ol>
-        <li><a href="https://ria.ru/20241007/durov-1968735141.html">Павел Дуров</a></li>
-        <li><a href="https://biographe.ru/biznesmeni/fedor-ovchinnikov/">Фёдор Овчинников</a></li>
-        <li><a href="https://biographe.ru/biznesmeni/vladimir-potanin/">Владимир Потанин</a></li>
-        <li><a href="https://biographe.ru/biznesmeni/oleg-tinkov/">Олег Тиньков</a></li>
-    </ol>
+    
+    <!-- Контейнер текста -->
+    <div class="container">
+        <p>Илон Маск родился в Претории (ЮАР) 28 июня 1971 года. Задатков будущего миллиардера в маленьком Маске никто не видел...</p>
+        <div class="ilon">
+            <img src="https://avatars.dzeninfra.ru/get-ynews/6035923/2198d11e0cc159a563a0d5da09ea222f/800x400" alt="Илон Маск">
+        </div>
+        <p>Благодаря своему первому проекту Zip2, Илон Маск стал миллионером в 24 года...</p>
+
+        <!-- Абсолютно позиционированный блок -->
+        <div class="absolute-block">
+            Илон Маск
+        </div>
+
+        <li><a href="https://pikabu.ru/story/ilon_maskkratkaya_biografiya_odnogo_iz_samyikh_izvestnyikh_i_respektabelnykh_lyudey_mira_7082456">Читать дальше...</a></li>
+    </div>
 </body>
 </html>
