@@ -35,8 +35,8 @@ h1 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Выравнивание элементов по основной оси */
-    align-items: center; /* Выравнивание по поперечной оси */
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
     width: 90%;
     max-width: 1200px;
@@ -49,7 +49,7 @@ h1 {
 
 /* Flex-элементы */
 .flex-item {
-    flex: 1 1 calc(33.333% - 20px); /* Элементы занимают 1/3 ширины контейнера */
+    flex: 1 1 calc(33.333% - 20px);
     max-width: calc(33.333% - 20px);
     padding: 10px;
     background-color: #0066cc;
@@ -59,21 +59,28 @@ h1 {
 }
 
 .flex-item:nth-child(2n) {
-    background-color: #004499; /* Цвет изменяется для четных элементов */
+    background-color: #004499;
 }
 
-.flex-item p {
+/* Изображения и фигуры */
+figure {
     margin: 0;
+    text-align: center;
 }
 
-/* Изображения */
-img {
+figure img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 20px auto;
+    margin: 0 auto;
     border-radius: 10px;
     border: 2px solid #ccc;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
 }
 
 /* Ссылки */
