@@ -87,13 +87,21 @@ figcaption {
 a {
     color: rgb(143, 0, 204);
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #004499;
+    background-color: brown;
 }
-
+a:focus {
+    background-color: rgb(91, 165, 42);
+}
+a:active {
+    background-color: rgb(34, 0, 252);
+}
 /* Списки */
 li {
     margin: 10px 0;
@@ -129,4 +137,38 @@ button:hover {
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+form{
+    margin-top: 150px;
+    border-radius: 10px;
+    width: 30%;
+    height: 500px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header{
+    height: 100px;
+    background-color: #0066cc;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
 }
