@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB_POLYAN</title>
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button>Меню</button>
+        <button>Главная</button>
+    </header>
+    <main>
+        <form action="index.html">
+            <!-- Имя -->
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите имя" required>
+
+            <!-- Дата рождения -->
+            <label for="dob">Дата рождения:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <!-- Пол -->
+            <label for="gender">Пол:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Выберите пол</option>
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+
+            <!-- Пароль -->
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+            <!-- Телефон -->
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+79999999999" required>
+
+            <!-- Удобный интервал для связи -->
+            <label for="contact_time">Удобный интервал для связи:</label>
+            <select id="contact_time" name="contact_time" required>
+                <option value="" disabled selected>Выберите время</option>
+                <option value="morning">Утро</option>
+                <option value="day">День</option>
+                <option value="evening">Вечер</option>
+                <option value="night">Ночь</option>
+            </select>
+
+            <!-- Кнопка отправки формы -->
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

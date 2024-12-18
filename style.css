@@ -18,6 +18,8 @@ body {
     padding: 0;
     background-color: #ffffff;
     color: #231d1d;
+    text-shadow: 2px 2px #bbcc009a;
+
 }
 
 header {
@@ -49,6 +51,7 @@ h1 {
     position: relative; /* Позиционируем относительно потока */
     max-width: 800px;
     margin: 20px auto;
+    text-shadow: 2px 2px #00ccaa;
 }
 
 /* Контейнер для текста */
@@ -64,6 +67,7 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column-reverse;
+    text-shadow: 2px 2px #ff00d4;
 }
 
 /* Параграфы */
