@@ -58,9 +58,7 @@ h1 {
     text-align: center;
 }
 
-.flex-item:nth-child(2n) {
-    background-color: #004499;
-}
+
 
 /* Изображения и фигуры */
 figure {
