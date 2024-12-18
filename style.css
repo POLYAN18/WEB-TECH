@@ -1,3 +1,38 @@
+Skip to content
+Navigation Menu
+POLYAN18
+WEB-TECH
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+BreadcrumbsWEB-TECH
+/style.css
+Go to file
+t
+Latest commit
+POLYAN18
+POLYAN18
+fixlab5
+f63e058
+ · 
+10 hours ago
+History
+BreadcrumbsWEB-TECH
+/style.css
+File metadata and controls
+
+Code
+
+Blame
+144 lines (127 loc) · 2.6 KB
 /* Устанавливаем box-sizing для всех элементов */
 *,
 *::before,
@@ -142,3 +177,4 @@ button:hover {
     padding: 10px 20px;
     border-radius: 5px;
 }
+
